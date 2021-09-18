@@ -1,0 +1,21 @@
+{
+  "name": "graphql-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "graphql-codegen": "graphql-codegen --config codegen.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.2.0",
+    "@graphql-codegen/typescript": "2.2.2",
+    "@graphql-codegen/typescript-graphql-request": "4.1.4",
+    "@graphql-codegen/typescript-operations": "2.1.4"
+  },
+  "dependencies": {
+    "graphql": "15.5.3"
+  }
+}
