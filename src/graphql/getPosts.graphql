@@ -1,0 +1,15 @@
+query getPosts {
+  posts: posts {
+    id
+    title
+  }
+  postsWithAuthor: posts {
+    id
+    title
+    author {
+      id
+      firstName
+      lastName
+    }
+  }
+}
